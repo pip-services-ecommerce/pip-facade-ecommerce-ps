@@ -197,7 +197,7 @@ A credit card with the following structure:
 
 .EXAMPLE
 
-New-PipCreditCard -CreditCard @{ customer_id="1"; "state"="ok"; type="visa", number="1234567893481283"; expire_month=1; expire_year=2020 }
+New-PipCreditCard -Card @{ customer_id="1"; "state"="ok"; type="visa", number="1234567893481283"; expire_month=1; expire_year=2020 }
 
 #>
     [CmdletBinding()]
